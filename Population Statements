@@ -16,7 +16,7 @@ begin
            x := random() * 4982;
            for k in 1..(random() * 15) loop
                insert into time_records(time_stamp,	song_id, user_id)
-              		select NOW() - (random() * (NOW()+'90	days' - NOW())), x, i;
+              	select NOW() - (random() * (NOW()+'90	days' - NOW())), x, i;
            end loop;
        end loop;
    end loop;
