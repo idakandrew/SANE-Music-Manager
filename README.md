@@ -1,5 +1,5 @@
 # SANE-Music-Manager
-This repository contains the PostgreSQL statements and queries which were used to build, populate, and search our music database. 
+This repository contains a sample of the PostgreSQL statements and queries which were used to build, populate, and search our music database. 
 
 Project built in collaboration with Eric Jean, Syed Manal and Neel Raj. 
 ## Initialization Statements
