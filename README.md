@@ -11,6 +11,6 @@ Used to search for and return songs and their respective data when users interac
 ## Analytic Queries
 Used to generate and collate analytic data for internal use. 
 ## Reccomendation Query
-This query underwent a lot of iterations, primarily because the complexity of erlier iterations kept getting out of hand. Our original approaches
+This query underwent a lot of iterations, primarily because the complexity of earlier iterations kept getting out of hand. Our original approaches
 involved matching user preferences with platform-wide trends, but we eventually scaled back to focus purely on individual users. The current
 iteration generates reccomendations based on a user's listening history, both what they have and have not listened to. 
