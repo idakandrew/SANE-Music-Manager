@@ -1,12 +1,12 @@
-// Add song to user's library.
+-- Add song to user's library.
 
 insert into owns_song (user_id, song_id, play_count) values (<user_id>, <song_id>, 0);
 
-// Add new user with new ID.
+-- Add new user with new ID.
 
 insert into users (user_id) values (<id>);
 
-// Populate time_records with random num of random play timestamps (within past few months) for random num of songs per user.
+-- Populate time_records with random num of random play timestamps (within past few months) for random num of songs per user.
 
 do $$
 declare x int;
@@ -23,7 +23,7 @@ begin
 end
 $$
 
-// Populate owns_song by counting play timestamps for each song + user pair in time_records.
+-- Populate owns_song by counting play timestamps for each song + user pair in time_records.
 
 do $$
 begin
