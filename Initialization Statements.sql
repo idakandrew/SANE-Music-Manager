@@ -1,4 +1,4 @@
-// Artist table init.
+-- Artist table init.
 
 create table artist
 (
@@ -8,7 +8,7 @@ create table artist
    dob date
 );
 
-// Has_genre_song (song<> genre) relationship init.
+-- Has_genre_song (song<> genre) relationship init.
 
 create table has_genre_song
 (
@@ -18,7 +18,7 @@ create table has_genre_song
        constraint song_genre_genre_genre_type_fk references genre
 );
 
-// Has (song <> album <> track number) relationship init.
+-- Has (song <> album <> track number) relationship init.
 
 create table has
 (
