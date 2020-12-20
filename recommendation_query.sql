@@ -1,4 +1,4 @@
-// 10 Songs from the user's most played genre that the user does not own.
+-- 10 Songs from the user's most played genre that the user does not own.
 
 SELECT song.title
 FROM song
